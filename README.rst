@@ -1,4 +1,4 @@
-Music Downloader Telegram Bot aka scdlbot
+Music Downloader Telegram Bot aka scdlbot ( Download mp3 from various sources)
 =========================================
 
 
