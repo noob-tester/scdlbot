@@ -8,6 +8,7 @@ _Send or forward_ a text message containing links and I will:
 • Use /settings to select working mode for messages *without command*.
 • Use /settings to toggle *Captions*.
 • [Privacy mode](https://core.telegram.org/bots#privacy-mode) is _disabled_, so I scan every group message.
+
 • Supported links and resources:
 *SoundCloud*: tracks/playlists/pages with private widgets
 *Bandcamp*: tracks/albums/custom links
