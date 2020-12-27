@@ -2,9 +2,11 @@ A Simple Bot for download and send audios from videos/tracks/sets/albums in *MP3
 
 
 ✪༺ ──•◈•── ──•◈•──༻✪  
+
+
 ➠*Usage:*
 
-_Send or forward_ a text message containing links and I will:
+_Send or forward_ a text message containing links and I will convert into mp3 file:
 
 • In *Download* mode: download every link I support (or use `/dl <links>`)
 
@@ -20,6 +22,7 @@ _Send or forward_ a text message containing links and I will:
 
 
 ✪༺ ──•◈•── ──•◈•──༻✪  
+
 •➠ *Supported links and resources*:
 
 ✪ *SoundCloud*: tracks/playlists/pages with private widgets
@@ -30,6 +33,7 @@ _Send or forward_ a text message containing links and I will:
 
 
 ✪༺ ──•◈•── ──•◈•──༻✪  
+
 *Example message:*
 `Hey, check this out! https://m.soundcloud.com/falling-ethics/jk-flesh-static-demon-fexelvn004 and also https://shitmat.bandcamp.com/track/amen-babylon-2016-mix and youtu.be/Mdzy5RKn434`
 
