@@ -6,7 +6,7 @@ Files over 50 MB are split into parts due to Telegram Bot API limit.
 
 *Usage:*
 
-         _Send or forward_ a text message containing links and I will:
+ _Send or forward_ a text message containing links and I will:
 
 ➥ In *Download* mode: download every link I support (or use `/dl <links>`)
 
