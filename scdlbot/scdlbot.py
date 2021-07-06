@@ -55,6 +55,7 @@ class ScdlBot:
         self.SERVE_AUDIO = serve_audio
         if self.SERVE_AUDIO:
             self.MAX_TG_FILE_SIZE = 19_000_000
+        self.START_TEXT = get_response_text('start.txt')
         self.HELP_TEXT = get_response_text('help.tg.md')
         self.SETTINGS_TEXT = get_response_text('settings.tg.md')
         self.DL_TIMEOUT_TEXT = get_response_text('dl_timeout.txt').format(self.DL_TIMEOUT // 60)
@@ -93,7 +94,7 @@ class ScdlBot:
         self.updater = Updater(token=tg_bot_token, base_url=f"{self.TG_BOT_API}/bot", use_context=True, base_file_url=f"{self.TG_BOT_API}/file/bot")
         dispatcher = self.updater.dispatcher
 
-        start_command_handler = CommandHandler('start', self.help_command_callback)
+        start_command_handler = CommandHandler('start', self.start_command_callback)
         dispatcher.add_handler(start_command_handler)
         help_command_handler = CommandHandler('help', self.help_command_callback)
         dispatcher.add_handler(help_command_handler)
